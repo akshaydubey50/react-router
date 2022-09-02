@@ -16,7 +16,7 @@ export const User = () => {
         </Link>
 
         </nav>
-        
+        <Outlet/>
         </>
         );
 }

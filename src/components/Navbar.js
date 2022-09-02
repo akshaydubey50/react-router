@@ -13,7 +13,7 @@ export const Navbar = () => {
         <nav className='primary-header'>
         <NavLink  style = {navLinkStyle} to="/">Home</NavLink>
         <NavLink  style = {navLinkStyle} to="/about">About</NavLink>
-        <NavLink  style = {navLinkStyle} to="/products">Products</NavLink>
+        <NavLink  style = {navLinkStyle} to="products">Products</NavLink>
         <NavLink  style = {navLinkStyle} to="/user">User</NavLink>
 
         </nav>

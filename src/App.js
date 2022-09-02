@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { About } from "./components/About";
+
 import { Admin } from "./components/Admin";
 import { FeaturedProduct } from "./components/FeaturedProduct";
 import { Home } from "./components/Home";
@@ -28,11 +29,11 @@ function App() {
         <Route path="news" element={<NewsProduct/>} />
       </Route>
       <Route path="user" element={<User/>}>
-        {/* <Route path="user1" element={<User1 />}/>
+        <Route path="user1" element={<User1 />}/>
         <Route path="user2" element={<User2 />}/>
-        <Route path="user3" element={<User3 />}/> */}
-      <Route path=":userId" element={<UserDetails/>} />
-      <Route path="admin" element={<Admin/>} />
+        <Route path="user3" element={<User3 />}/>
+      {/* <Route path=":userId" element={<UserDetails/>} /> */}
+      {/* <Route path="admin" element={<Admin/>} /> */}
       </Route>
       <Route path="*" element={<NoMatch />} />
     </Routes>
